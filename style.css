@@ -1,0 +1,100 @@
+/* <style> */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #d10505f3;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.hover:hover {
+    color:#df0202 ;
+}
+
+nav {
+    background-color: #ad1717fa;
+    color: #fff;
+    padding: 0.5rem;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+.motorcycle-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.motorcycle-item {
+    border: 1px solid #df0202;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+.motorcycle-item img {
+    max-width: 100%;
+    height: auto;
+}
+footer {
+    background-color: #c00909f6;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+ 
+.button {
+    display: inline-block;
+    background-color: #d10505f3;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 2px ;
+}
+        
+.button:hover {
+    background-color: #c00909f6; /* Darker shade on hover */
+}
+        
+.ri-shopping-basket-fill{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    border-radius: 10px ;
+    margin: 5px;
+    backdrop-filter: brightness(88%);
+    font-size: 20px;
+    margin-right: 17px;
+    box-shadow: 0 0 20px transparent;
+    background-color:#c00909f6 ;
+    color: white;
+    border: 1px solid black;
+}
